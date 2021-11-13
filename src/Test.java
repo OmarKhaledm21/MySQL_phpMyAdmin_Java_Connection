@@ -6,7 +6,7 @@ public class Test {
             Connection c = DriverManager.getConnection(
                     "jdbc:mysql://localhost/students?serverTimezone=UTC",
                     "omar",
-                    "omar12345"
+                    "******"
             );
 
             System.out.println("Connected!");
